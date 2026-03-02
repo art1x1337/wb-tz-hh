@@ -12,13 +12,21 @@ WB Tariffs Service
 
 wb-tariffs-service/
 ├─ src/
+
 │  ├─ jobs/
+
 │  │  └─ tariffJob.ts    # логика cron, API WB, DB, Google Sheets
+
 │  └─ index.ts           # точка входа
+
 ├─ .env.example           # пример env
+
 ├─ docker-compose.yml
+
 ├─ package.json
+
 ├─ tsconfig.json
+
 └─ README.md
 
 --------------------------------------------------
