@@ -37,6 +37,7 @@ git clone <YOUR_REPO_URL>
 cd wb-tariffs-service
 
 Создаём файл .env:
+
 PORT=3000
 WB_API_TOKEN=<ваш токен Wildberries>
 GOOGLE_SERVICE_ACCOUNT_KEY=<ключ JSON для Google Sheets>
