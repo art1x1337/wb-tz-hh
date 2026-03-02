@@ -2,6 +2,7 @@ WB Tariffs Service
 Сервис для ежечасного получения тарифов Wildberries и обновления данных в Google Sheets.
 Реализован на Node.js, TypeScript, PostgreSQL, Docker.
 
+--------------------------------------------------
 Структура проекта:
 wb-tariffs-service/
 ├─ src/
@@ -13,6 +14,8 @@ wb-tariffs-service/
 ├─ package.json
 ├─ tsconfig.json
 └─ README.md
+
+--------------------------------------------------
 
 Запуск:
 git clone <YOUR_REPO_URL>
