@@ -11,16 +11,11 @@ WB Tariffs Service
 
 
 wb-tariffs-service/
-
 ├─ src/
-
 │  ├─ jobs/
-
 │  │  └─ tariffJob.ts    
-
 │  └─ index.ts           
-
-├─ .env.example           
+├─ .env.example          
 ├─ docker-compose.yml
 ├─ package.json
 ├─ tsconfig.json
