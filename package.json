@@ -1,0 +1,27 @@
+{
+  "name": "wb-tariffs-service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^133.0.0",
+    "knex": "^3.0.0",
+    "node-cron": "^3.0.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/google-apps-script": "^2.0.8",
+    "@types/node": "^20.0.0",
+    "@types/node-cron": "^3.0.11",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
