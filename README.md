@@ -10,9 +10,10 @@ WB Tariffs Service
 Структура проекта:
 
 
-wb-tariffs-service/
-├─ src/
-│  ├─ jobs/
+wb-tariffs-service
+
+├─ src
+│  ├─ jobs
 │  │  └─ tariffJob.ts    
 │  └─ index.ts           
 ├─ .env.example          
