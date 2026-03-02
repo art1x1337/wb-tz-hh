@@ -10,14 +10,13 @@ WB Tariffs Service
 Структура проекта:
 
 
-wb-tariffs-service
-
-├─ src
-│  ├─ jobs
-│  │  └─ tariffJob.ts    
-│  └─ index.ts           
-├─ .env.example          
-├─ docker-compose.yml
+wb-tariffs-service/
+├─ src/
+│  ├─ jobs/             
+│  │  └─ tariffJob.ts
+│  └─ index.ts          
+├─ .env.example         
+├─ docker-compose.yml   
 ├─ package.json
 ├─ tsconfig.json
 └─ README.md
