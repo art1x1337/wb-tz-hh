@@ -15,11 +15,11 @@ wb-tariffs-service/
 
 │  ├─ jobs/
 
-│  │  └─ tariffJob.ts    # логика cron, API WB, DB, Google Sheets
+│  │  └─ tariffJob.ts    
 
-│  └─ index.ts           # точка входа
+│  └─ index.ts           
 
-├─ .env.example           # пример env
+├─ .env.example           
 
 ├─ docker-compose.yml
 
